@@ -1,0 +1,15 @@
+<div class="info">
+<h1 id="infoTitle">
+General Info
+</h1>
+<p>Years Drawing: 8 years, since 7th grade
+<p>Tablet: Wacom One</p>
+<p>Art Programs: Paint Tool SAI & Photoshop</p>
+<p>Inspiration: Way too much music!</p>
+
+<div class="artDesc">
+<p>I'm pretty much your average digital artist, but I've certainly done my best to develop my own style. I bought my own drawing tablet back in 8th Grade, and I've been practicing ever since. I have even been using Paint Tool SAI for all of these years, once I got comfortable and studied how other people used it, I haven't felt the need to branch out much. I use Photoshop mostly for editing, but I still learned how to draw with it as well.</p>
+<p>It's been quite a journey to get to where I am in terms of art skills, but even then I still desperately want to improve more. Baby steps tends to be the trend with improving, but I find that it helps when my interests fluctuate and make me improve on so many different aspects. Music also helps, it really gets me in the mood to draw and improve. Although, seeing other people's drawings on social media also make me want to strive to do better. It's funny now that I mention it, when I read about artists switching between different art programs and tools, when largely I've stayed dedicated to the same ones all these years. Versatility is important, but I like to think I've managed just fine!
+</div>
+</div>
+<img src="./images/wall.png" id="decor">

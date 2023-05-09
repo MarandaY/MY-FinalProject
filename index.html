@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/psq6ces.css">
+    
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="opening"> 
+        <div class="fade-in-text">
+        <h1 class="title">Art Gallery!</h1>
+        <img src="./images/ecks.png" id="doodle">
+        <h2 id="gallery"></h2>
+        <h2 id="intro"></h2>
+        <h2 id="sendoff"></h2>
+        </div>
+    </div>
+   
+
+    <div class="row">
+        <div class="image">
+            <img src="./images/demian.png" id="image1"> 
+            <button class="switch" onclick="imgChange()">Progress Shot</button>
+            <div class="description">
+                <h2 id="gift"></h2>
+                <p>I follow a fair few amount of artists on social media, some of which have their own original characters that I really like. I wanted to draw this as a gift for one of those artists, since I simply loved his design!</p>
+            </div>
+        </div>
+        <div class="image">
+            <img src="./images/glitchy.png" id="image2"> 
+            <button class="switch" onclick="imgChange2()">Progress Shot</button>
+            <div class="description">
+                <h2 class="fun"></h2>
+                <p>This was a drawing that I made when I was getting pretty into some obscure internet horror stories. That, and there was a song I was listening to on repeat that inspired me to do my own version of the art. It was pretty fun to make!</p>
+            </div>
+        </div>
+        <div class="image">
+            <img src="./images/seven.png" id="image3"> 
+            <button class="switch" onclick="imgChange3()">Progress Shot</button>
+            <div class="description">
+                <h2 class="fun"></h2>
+                <p>Another drawing I made while I was pretty into internet horror stories, I thought it'd be fun to make something quickly so I could practice coloring on my new tablet (and just drawing on it in general).</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image">
+            <img src="./images/karkat.png" id="image4"> 
+            <button class="switch" onclick="imgChange4()">Progress Shot</button>
+            <div class="description">
+                <h2 class="fun"></h2>
+                <p>This one was actually a redraw of something I drew back in Middle School! I wanted to see how far I've progressed as an artist, so I decided on redrawing this piece since it was one that I didn't hate as much as the others.</p>
+            </div>
+        </div>
+        <div class="image">
+            <img src="./images/fusion.png" id="image5"> 
+            <button class="switch" onclick="imgChange5()">Progress Shot</button>
+            <div class="description">
+                <h2 class="type" id="commission"></h2>
+                <p>This is something I had a lot of fun making even though it was a commission! I'm a big fan of dragon features and I already have a lot of fun drawing hybrids as well. This commission was a treat to make!</p>
+            </div>
+        </div>
+        <div class="image">
+            <img src="./images/rock.png" id="image6"> 
+            <button class="switch" onclick="imgChange6()">Progress Shot</button>
+            <div class="description">
+                <h2 class="fun"></h2>
+                <p>This was a drawing that I made really quickly last year for what's affectionately dubbed as "Rockman Day" in Japan, although American fans often make their own art to celebrate it as well. I adore the series, so I was very inspired to do something cute!</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="general">
+        <h2>Click here for more info on how I complete my art.</h2>
+        <button id="more" onclick="loadDoc()">MORE</button>
+    </div>
+
+</div>
+
+<script src="./add.js"></script>
+</body>
+</html>
